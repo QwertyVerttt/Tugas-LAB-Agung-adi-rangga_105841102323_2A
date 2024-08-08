@@ -1,7 +1,28 @@
-function buttonClick() {
-  alert("Biodata");
-  document.getElementById("test").innerHTML = "Nama : Agung";
-  document.getElementById("test1").innerHTML = "Nim : 105841102323 ";
-  document.getElementById("test2").innerHTML = "Kelas : Informatika 2-A ";
-  document.getElementById("test3").innerHTML = "Biodata";
+// tugas 1
+function tugas1(a, b) {
+  return (a * b) / b;
 }
+console.log(tugas1(2, 5));
+// tugas 2
+function tugas2(a, b, c) {
+  return a || b || c;
+}
+console.log(tugas2(false, false, true));
+
+// tugas 3
+function tugas3(x, y, z) {
+  return x + " " + y + " " + z;
+}
+console.log(tugas3("Agung", "adi", "Rangga"));
+
+// tugas 4
+function tugas4(a, b) {
+  return a == b;
+}
+console.log(tugas4(5, "5"));
+
+// tugas 5
+function tugas5(a, b) {
+  return a === b;
+}
+console.log(tugas5(1, "1"));
